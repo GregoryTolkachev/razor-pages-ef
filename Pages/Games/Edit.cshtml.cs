@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using razor_pg_ef.Models;
+using razor_pages_ef.Models;
 
 namespace razor_pages_ef.Pages.Games
 {

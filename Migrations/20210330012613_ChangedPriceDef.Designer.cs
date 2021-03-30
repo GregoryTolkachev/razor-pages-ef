@@ -2,14 +2,16 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace razor_pages_ef.Migrations
 {
     [DbContext(typeof(StoreGameContext))]
-    partial class StoreGameContextModelSnapshot : ModelSnapshot
+    [Migration("20210330012613_ChangedPriceDef")]
+    partial class ChangedPriceDef
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

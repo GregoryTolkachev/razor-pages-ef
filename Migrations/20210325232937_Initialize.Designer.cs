@@ -17,7 +17,7 @@ namespace razor_pages_ef.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.4");
 
-            modelBuilder.Entity("razor_pg_ef.Models.Game", b =>
+            modelBuilder.Entity("razor_pages_ef.Models.Game", b =>
                 {
                     b.Property<int>("GameID")
                         .ValueGeneratedOnAdd()

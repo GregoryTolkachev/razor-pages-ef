@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace razor_pg_ef.Models
+namespace razor_pages_ef.Models
 {
 
     public class Game

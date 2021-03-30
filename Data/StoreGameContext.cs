@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using razor_pg_ef.Models;
+using razor_pages_ef.Models;
 
     public class StoreGameContext : DbContext
     {
@@ -12,5 +12,5 @@ using razor_pg_ef.Models;
         {
         }
 
-        public DbSet<razor_pg_ef.Models.Game> Game { get; set; }
+        public DbSet<razor_pages_ef.Models.Game> Game { get; set; }
     }
